@@ -1,0 +1,41 @@
+  <div class="top_header v3">
+    <nav id="navbar_top" class="navbar navbar-expand-lg">
+      <div class="container py-2">
+        <div class="container p-0 text-center">
+          <img src="images/logo.svg" class="d-md-none" alt=" logo" width="60">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <img src="images/logo.svg" alt=" logo" width="60">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+        <div>
+          <a href="Vasanth_123.pdf" class="text-decoration-none btn" download="vasanth_resume">Download CV</a>
+        </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <script>
+    $(document).ready(function () {
+    $('.nav-item a').click(function () {
+        //removing the previous selected menu state
+        $('.nav-item').find('a.active').removeClass('active');
+        //adding the state for this parent menu
+        $(this).addClass('active');
+
+    });
+});
+  </script>
