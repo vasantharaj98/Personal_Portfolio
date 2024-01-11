@@ -283,10 +283,6 @@ body{
     color: var(--PRIMARY-COLOR);
 }
 
-.mobile_menu .nav-link:hover{
-    color: var(--PRIMARY-COLOR);
-}
-
 .social a{
     font-size: 27px;
     color: var(--WHITE);
@@ -358,7 +354,12 @@ background-clip: text;
 .skill h4{
     color: var(--WHITE);
 }
-
+#skills{
+    scroll-margin-top: 50px;
+}
+#project{
+    scroll-margin-top: 50px;
+}
 
 /* Components Styles */
 
@@ -375,7 +376,7 @@ background-clip: text;
         right:20px;
         bottom:100px;
     }
-    #footer{
+    .footer{
         padding-bottom: 110px;
     }
     .land_page{
